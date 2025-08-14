@@ -11,3 +11,5 @@ The main file of interest is `finetuning.ipynb`.
    ```bash
    pip install uv
    uv sync
+   pip install ipykernel
+   python -m ipykernel install --user --name=tabicl --display-name "TabICL"
