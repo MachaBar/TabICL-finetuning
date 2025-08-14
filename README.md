@@ -1,3 +1,13 @@
 # Finetuning TabICL
-## The file of interest is finetuning.ipynb. 
-You need to download the baseline weights ("tabicl-classifier-v1.1-0506.ckpt") from HF and save them in the parent folder. 
+
+The main file of interest is `finetuning.ipynb`.
+
+## Getting Started
+
+1. **Download baseline weights**  
+   Download `tabicl-classifier-v1.1-0506.ckpt` from Hugging Face and save it in the **parent folder** of this repository.
+
+2. **Set up the Python environment**  
+   ```bash
+   pip install uv
+   uv sync
